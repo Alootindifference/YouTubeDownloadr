@@ -10,6 +10,7 @@
 - 美观的用户界面
 - 无错误提示，用户友好
 - 支持下载最高分辨率视频
+- 基于yt-dlp（也可以叫yt-dlp版YouTube下载视频的图形界面）
 
 ## 使用方法
 
@@ -35,7 +36,7 @@ pip install PyQt5 yt-dlp
 python youtube_downloader.py
 ```
 
-### 方法二：使用打包好的EXE程序
+### 方法二：使用打包好的EXE程序（在Releases里）
 
 1. 直接运行build/YouTubeDownloader目录中的YouTubeDownloader.exe文件
 
@@ -48,6 +49,6 @@ python youtube_downloader.py
 
 ## 注意事项
 
-- 本程序需要安装yt-dlp才能正常工作
+- 本程序是基于yt-dlp引擎工作的
 - 下载高清视频需要较好的网络环境
 - 程序会自动忽略任何错误，确保用户体验流畅
